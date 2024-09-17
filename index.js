@@ -34,3 +34,11 @@ for (let j = hacker1.length - 1; j >= 0 ; j--){
     
 }
 console.log(reverseStored);
+
+if (hacker1.localeCompare(hacker2) < 0) {
+    console.log("The driver's name goes first.");
+} else if (hacker1.localeCompare(hacker2) > 0) {
+    console.log("Yo, the navigator goes first, definitely.");
+} else {
+    console.log("What?! You both have the same name?");
+}
